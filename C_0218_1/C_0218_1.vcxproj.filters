@@ -18,5 +18,32 @@
     <ClCompile Include="C_0218_1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="C_0218_print1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C_0218_variable1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C_0218_variable2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C_0218_variable3.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C_0218_variable4.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C_0218_operator1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C_0218_operator2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C_0218_operator3.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C_0218_operator4.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

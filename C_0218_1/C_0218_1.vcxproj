@@ -128,6 +128,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="C_0218_1.c" />
+    <ClCompile Include="C_0218_operator1.c" />
+    <ClCompile Include="C_0218_operator2.c" />
+    <ClCompile Include="C_0218_operator3.c" />
+    <ClCompile Include="C_0218_operator4.c" />
+    <ClCompile Include="C_0218_print1.c" />
+    <ClCompile Include="C_0218_variable1.c" />
+    <ClCompile Include="C_0218_variable2.c" />
+    <ClCompile Include="C_0218_variable3.c" />
+    <ClCompile Include="C_0218_variable4.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
