@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d06007b6-853b-4e60-afdd-e530014285ad}</ProjectGuid>
-    <RootNamespace>C02181</RootNamespace>
+    <ProjectGuid>{92748a59-887d-4f06-9af7-0f9ab8a9fb23}</ProjectGuid>
+    <RootNamespace>day4</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>CProj</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -74,7 +73,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <SDLCheck>true</SDLCheck>
+      <SDLCheck>false</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
@@ -88,7 +87,7 @@
       <WarningLevel>Level3</WarningLevel>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <SDLCheck>true</SDLCheck>
+      <SDLCheck>false</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
@@ -102,7 +101,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <SDLCheck>true</SDLCheck>
+      <SDLCheck>false</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
@@ -116,7 +115,7 @@
       <WarningLevel>Level3</WarningLevel>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <SDLCheck>true</SDLCheck>
+      <SDLCheck>false</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
@@ -128,16 +127,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="C_0218_1.c" />
-    <ClCompile Include="C_0218_operator1.c" />
-    <ClCompile Include="C_0218_operator2.c" />
-    <ClCompile Include="C_0218_operator3.c" />
-    <ClCompile Include="C_0218_operator4.c" />
-    <ClCompile Include="C_0218_print1.c" />
-    <ClCompile Include="C_0218_variable1.c" />
-    <ClCompile Include="C_0218_variable2.c" />
-    <ClCompile Include="C_0218_variable3.c" />
-    <ClCompile Include="C_0218_variable4.c" />
+    <ClCompile Include="dowhile1.c" />
+    <ClCompile Include="dowhile2.c" />
+    <ClCompile Include="for1.c" />
+    <ClCompile Include="for2.c" />
+    <ClCompile Include="for3.c" />
+    <ClCompile Include="Quiz2.c" />
+    <ClCompile Include="Quiz1.c" />
+    <ClCompile Include="review.c" />
+    <ClCompile Include="while1.c" />
+    <ClCompile Include="while2.c" />
+    <ClCompile Include="while3.c" />
+    <ClCompile Include="while4.c" />
+    <ClCompile Include="while5.c" />
+    <ClCompile Include="control1.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
